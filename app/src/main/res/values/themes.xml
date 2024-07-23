@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.My_Salon" parent="Theme.MaterialComponents.Light.NoActionBar">
+         <item name="colorPrimary">@color/blue</item>
+         <item name="colorPrimaryDark">@color/dark_blue</item>
+         <item name="colorAccent">@color/red</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.My_Salon" parent="Base.Theme.My_Salon" />
+
+    <style name="SplashScreesTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+<!--    <style name="Theme.NavigationDrawer" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        <item name="colorPrimary">@color/blue</item>-->
+<!--    </style>-->
+
+    <style name="ErrorTextAppearance" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+</resources>
